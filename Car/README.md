@@ -1,18 +1,45 @@
-## Getting Started
+# Simulador de Carro em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto simples de um simulador de carro desenvolvido em Java. Ele permite que o usuário interaja com um carro virtual através de um menu de console, realizando ações como ligar, desligar, acelerar, frear e trocar de marcha.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+*   **Ligar e Desligar:** O carro pode ser ligado e desligado.
+*   **Aceleração e Desaceleração:** A velocidade do carro pode ser aumentada ou diminuída.
+*   **Troca de Marchas:** O usuário pode aumentar e diminuir as marchas do carro.
+*   **Movimento:** O carro pode virar para a esquerda e para a direita.
+*   **Feedback em Tempo Real:** O sistema fornece feedback constante sobre o estado do carro, como velocidade e marcha atual.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Como Executar
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1.  **Pré-requisitos:**
+    *   Java Development Kit (JDK) instalado.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+2.  **Compilação:**
+    *   Abra um terminal na raiz do projeto.
+    *   Compile os arquivos `.java` para a pasta `bin`:
+        ```bash
+        javac -d bin src/Car.java src/Main.java
+        ```
 
-## Dependency Management
+3.  **Execução:**
+    *   Execute a classe `Main` a partir da pasta `bin`:
+        ```bash
+        java -cp bin Main
+        ```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Controles
+
+O programa oferece um menu de opções para controlar o carro:
+
+*   `1. Ligar o carro`
+*   `2. Desligar o carro`
+*   `3. Aumentar a velocidade`
+*   `4. Diminuir a velocidade`
+*   `5. Colocar marcha em drive (+)`
+*   `6. Reduzir marcha (-)`
+*   `7. Marcha atual`
+*   `8 - Virar para a esquerda`
+*   `9 - Virar para a direita`
+*   `10 - Verificar velocidade atual`
+*   `0. Sair`
