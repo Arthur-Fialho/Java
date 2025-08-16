@@ -28,5 +28,6 @@ public class TwoNumbers {
                 }
             }
         }
+        scanner.close();
     }
 }
