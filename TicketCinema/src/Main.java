@@ -2,23 +2,24 @@ public class Main {
 
     public static void main(String[] args) {
         
-        // Example usage of the Ticket classes
+        // Exemplo do ingresso familiar
         FamilyTicket familyTicket = new FamilyTicket(4);
         familyTicket.setMovieName("Avengers: Endgame");
-        familyTicket.setIsDubbed("Yes");
+        familyTicket.setIsDubbed("Sim");
         System.out.println(familyTicket);
 
-        HalfEntry halfEntry = new HalfEntry("Inception", "No");
+        // Exemplo do ingresso de meia entrada
+        HalfEntry halfEntry = new HalfEntry("Inception", "Não");
         System.out.println(halfEntry);
 
-        // how to create a regular ticket
-        Ticket regularTicket = new Ticket(20, "The Matrix", "Yes") {
+        // Exemplo do ingresso regular
+        Ticket regularTicket = new Ticket(20, "The Matrix", "Sim") {
             @Override
             public String toString() {
-                return "RegularTicket{" +
-                        "value=" + getValue() +
-                        ", movieName='" + getMovieName() + '\'' +
-                        ", isDubbed='" + getIsDubbed() + '\'' +
+                return "Ingresso normal{" +
+                        "preço=" + getValue() +
+                        ", Nome do Filme='" + getMovieName() + '\'' +
+                        ", dublado='" + getIsDubbed() + '\'' +
                         '}';
             }
         };

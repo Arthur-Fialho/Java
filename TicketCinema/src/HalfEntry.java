@@ -10,10 +10,10 @@ public class HalfEntry extends Ticket {
 
     @Override
     public String toString() {
-        return "HalfEntry{" +
-                "value=" + getValue() +
-                ", movieName='" + getMovieName() + '\'' +
-                ", isDubbed='" + getIsDubbed() + '\'' +
+        return "Meia entrada{" +
+                "preço=" + getValue() +
+                ", Nome do Filme='" + getMovieName() + '\'' +
+                ", dublado='" + getIsDubbed() + '\'' +
                 '}';
     }
 

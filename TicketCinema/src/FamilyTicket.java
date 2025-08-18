@@ -16,10 +16,10 @@ public class FamilyTicket extends Ticket {
 
     @Override
     public String toString() {
-        return "FamilyTicket{" +
-                "value=" + getValue() +
-                ", movieName='" + getMovieName() + '\'' +
-                ", isDubbed='" + getIsDubbed() + '\'' +
+        return "Ingresso Familiar{" +
+                "preço=" + getValue() +
+                ", Nome do Filme='" + getMovieName() + '\'' +
+                ", dublado='" + getIsDubbed() + '\'' +
                 '}';
     }
 
