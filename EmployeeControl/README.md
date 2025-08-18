@@ -84,4 +84,4 @@ classDiagram
 
 ## 🧑‍💻 Autor
 
-*   **Arthur** - *Trabalho inicial* - [Arthur](https://github.com/arthur)
+*   **Arthur** - *Trabalho inicial* - [Arthur](https://github.com/Arthur-Fialho)
